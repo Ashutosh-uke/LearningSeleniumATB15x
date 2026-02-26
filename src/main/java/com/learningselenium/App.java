@@ -1,4 +1,4 @@
-package org.learningselenium;
+package com.learningselenium;
 
 public class App {
 

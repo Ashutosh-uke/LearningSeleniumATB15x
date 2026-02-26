@@ -1,4 +1,4 @@
-package org.learningselenium;
+package com.learningselenium.ex02_Selenium_Basics;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/promode/Documents/TTA/LearningSeleniumATB15x">
+        <classes>
+            <class name="com.learningselenium.ex02_Selenium_Basics.TestSelenium09_Assertion_TestNG">
+                <methods>
+                    <include name="test_selenium_01"/>
+                </methods>
+            </class>
+            <!--            <class name="com.thetestingacademy.ex02_Selenium_Basics.TestSelenium10_TestNG_Example">-->
+            <!--                <methods>-->
+            <!--                    <include name="test_Selenium_app_vwo"/>-->
+            <!--                </methods>-->
+            <!--            </class>-->
+        </classes>
+    </test>
+</suite>
