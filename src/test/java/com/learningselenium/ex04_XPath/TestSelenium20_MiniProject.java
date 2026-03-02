@@ -1,4 +1,4 @@
-package com.learningselenium.ex_04_XPath;
+package com.learningselenium.ex04_XPath;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
@@ -10,8 +10,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import org.openqa.selenium.WebElement;
 
 public class TestSelenium20_MiniProject {
     @Owner("Ashutosh")

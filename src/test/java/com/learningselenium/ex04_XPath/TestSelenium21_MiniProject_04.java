@@ -1,4 +1,4 @@
-package com.learningselenium.ex_04_XPath;
+package com.learningselenium.ex04_XPath;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;

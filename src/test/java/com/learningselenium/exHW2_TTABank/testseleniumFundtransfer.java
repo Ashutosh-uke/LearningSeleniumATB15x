@@ -1,4 +1,4 @@
-package com.learningselenium.exHW_TTABank;
+package com.learningselenium.exHW2_TTABank;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;

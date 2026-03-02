@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1">
     <test name="Assertion Check">
         <classes >
-            <class name="com.learningselenium.exHW1_Katalon.TestSelenium_HW_Katalon_Login">
+            <class name="com.learningselenium.exHW4_DemoQA.testseleniumDemoQA">
             </class>
         </classes>
     </test>

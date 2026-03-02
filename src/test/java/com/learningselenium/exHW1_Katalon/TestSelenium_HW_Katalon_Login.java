@@ -1,4 +1,4 @@
-package com.learningselenium.exHW_Katalon;
+package com.learningselenium.exHW1_Katalon;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
