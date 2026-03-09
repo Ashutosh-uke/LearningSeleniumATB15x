@@ -53,4 +53,9 @@ public class WaitHelpers {
         });
         return error_message;
     }
+
+    public static void waitForAlert(WebDriver driver, int time){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(time));
+        wait.until(ExpectedConditions.alertIsPresent());
+    }
 }
