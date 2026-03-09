@@ -24,22 +24,22 @@ public class VWOFindErrorMessage extends CommonToAll {
         driver = new ChromeDriver();
         openBrowser(driver,"https://app.vwo.com/#/login");
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+      //  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         WebElement email_id = waitForVisibility(driver,"//input[@name='username']");
         email_id.sendKeys("admin@admin.com");
 
-        WaitHelpers.waitImplicitWait(driver,100);
+     //   WaitHelpers.waitImplicitWait(driver,100);
 
         WebElement password = waitForVisibility(driver,"//input[@name='password']");
         password.sendKeys("admin");
 
-        WaitHelpers.waitImplicitWait(driver,100);
+     //   WaitHelpers.waitImplicitWait(driver,100);
 
         WebElement signin= clickabletoClick(driver,"//button//span[text()='Sign in']");
         signin.click();
 
-        WaitHelpers.waitImplicitWait(driver,100);
+    //    WaitHelpers.waitImplicitWait(driver,100);
 
         WebElement errMsg = WaitHelpers.checkVisibilityOfAndTextToBePresentInElement(driver, By.xpath("//div[contains(@class,'notification-box-description')]"));
 
