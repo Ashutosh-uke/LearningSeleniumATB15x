@@ -1,4 +1,4 @@
-package com.learningselenium.HW7_Booking;
+package com.learningselenium.exHW7_Booking;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
@@ -10,8 +10,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import com.learningselenium.utils.CommonToAll;
-import com.learningselenium.utils.Constants;
-import com.learningselenium.utils.WaitHelpers;
 
 import java.time.Duration;
 
